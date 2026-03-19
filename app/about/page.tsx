@@ -28,7 +28,7 @@ export default function AboutPage() {
         {[
           { stat: "$50M+", label: "Residential assets developed" },
           { stat: "3", label: "Active industrial projects" },
-          { stat: "TX & CA", label: "Primary markets" },
+          { stat: "TX · CA · AZ · CO", label: "Active markets" },
         ].map((s) => (
           <div key={s.label} className="border border-gray-200 p-8">
             <p className="text-3xl font-bold text-gray-900 mb-2">{s.stat}</p>

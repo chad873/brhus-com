@@ -48,7 +48,7 @@ export default function IndustrialPage() {
         <p className="text-sm uppercase tracking-widest text-gray-400 mb-3">Sector</p>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Industrial</h1>
         <p className="text-gray-500 max-w-2xl text-lg leading-relaxed">
-          Bird Rock Holdings develops and acquires industrial flex assets in the fastest-growing markets in Texas. Our focus is on ground-up development, value-add acquisitions, and long-term asset stabilization.
+          Bird Rock Holdings develops and acquires industrial flex assets in Texas — with active projects in Houston and Corpus Christi. Our focus is on ground-up development, value-add acquisitions, and long-term asset stabilization.
         </p>
       </div>
 

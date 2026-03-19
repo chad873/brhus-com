@@ -1,12 +1,26 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #111111;
+  --navy: #1b4073;
+  --black: #000000;
+  --offwhite: #f7f6f3;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: 'Georgia', serif;
+  background: #ffffff;
+  color: #111111;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair), 'Times New Roman', Georgia, serif;
+  color: #1b4073;
+  line-height: 1.2;
 }
