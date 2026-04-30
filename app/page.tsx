@@ -64,7 +64,7 @@ export default function Home() {
                 Redefining Investment in Real Assets.
               </h1>
               <p className="text-gray-200 text-lg max-w-xl mb-8">
-                Bird Rock Holdings acquires, develops, and operates industrial, commercial, and residential assets — and invests in businesses with lasting fundamentals. We are active across Texas, California, Arizona, and Colorado.
+                Bird Rock Holdings acquires, develops, and operates industrial, commercial, and residential assets, and invests in businesses with lasting fundamentals. We are active across Texas, California, Arizona, and Colorado.
               </p>
               <Link
                 href="/about"
@@ -85,14 +85,14 @@ export default function Home() {
             Bird Rock Holdings is a Texas-based real estate and investment firm, specializing in industrial development, commercial acquisitions, residential development, and operating business investments.
           </p>
           <p className="text-gray-700 mb-8">
-            Led by principal Chad Hart, we focus on markets with strong fundamentals and long-term growth potential — bringing a hands-on, operator-first approach to every investment we make.
+            Led by principal Chad Hart, we focus on markets with strong fundamentals and long-term growth potential, bringing a hands-on, operator-first approach to every investment we make.
           </p>
           <Link href="/about" className="inline-block bg-black text-white text-sm px-6 py-3 hover:bg-[#1b4073] transition-colors font-medium">
             Learn More →
           </Link>
         </div>
 
-        {/* Big stat — Lovett style */}
+        {/* Big stat, Lovett style */}
         <div className="border-l-4 border-[#1b4073] pl-10 flex flex-col justify-center">
           <p className="font-serif text-7xl font-bold text-[#1b4073] leading-none mb-2">134K+</p>
           <p className="text-gray-500 text-sm uppercase tracking-widest">SF Completed &amp; Underway</p>
@@ -137,7 +137,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-[#1b4073] text-6xl font-serif leading-none mb-6">"</p>
           <blockquote className="text-white font-serif text-2xl md:text-3xl leading-relaxed mb-8">
-            We are not simply focused on acquiring assets — we are focused on building lasting value in markets we believe in, with partners who share our commitment to excellence.
+            We are not simply focused on acquiring assets, we are focused on building lasting value in markets we believe in, with partners who share our commitment to excellence.
           </blockquote>
           <p className="text-gray-500 text-sm">— Chad Hart, Principal &amp; Founder, Bird Rock Holdings</p>
         </div>
@@ -154,7 +154,7 @@ export default function Home() {
                 name: "Magnolia Business Park",
                 location: "The Woodlands, TX",
                 details: "31,150 SF · 3 Buildings · 16 Units",
-                status: "Under Construction — Q2 2026",
+                status: "Under Construction, Q2 2026",
                 img: "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=800&q=80",
               },
               {
@@ -221,7 +221,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto">
           <h2 className="font-serif text-3xl font-bold text-white mb-4">Get in Touch.</h2>
           <p className="text-blue-200 mb-8 text-lg">
-            Whether you're an investor, prospective tenant, or partner — we'd like to hear from you.
+            Whether you're an investor, prospective tenant, or partner, we'd like to hear from you.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="bg-black text-white px-8 py-3 text-sm font-medium hover:bg-gray-900 transition-colors">

@@ -7,7 +7,7 @@ export default function ContactPage() {
         <p className="text-sm uppercase tracking-widest text-gray-400 mb-3">Get in Touch</p>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Contact</h1>
         <p className="text-gray-500 text-lg leading-relaxed">
-          Whether you're an investor, prospective tenant, partner, or just want to connect — we'd like to hear from you.
+          Whether you're an investor, prospective tenant, partner, or just want to connect, we'd like to hear from you.
         </p>
       </div>
 

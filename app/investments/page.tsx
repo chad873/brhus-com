@@ -10,7 +10,7 @@ const investments = [
     desc: "Strategic investments in construction services businesses, including structural steel, crane & rigging, and specialty contracting operations.",
   },
   {
-    name: "Business Investment — Placeholder",
+    name: "Business Investment, Placeholder",
     category: "Other",
     desc: "Generic placeholder for additional business investments. Lumen will write the actual copy here.",
   },
@@ -41,7 +41,7 @@ export default function InvestmentsPage() {
       <section className="mt-20 bg-gray-50 p-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Investment Philosophy</h2>
         <p className="text-gray-600 max-w-2xl leading-relaxed">
-          We invest in businesses we understand, with operators we trust, in markets we believe in. Generic placeholder copy — Lumen will replace this with the real story.
+          We invest in businesses we understand, with operators we trust, in markets we believe in. Generic placeholder copy, Lumen will replace this with the real story.
         </p>
       </section>
     </div>

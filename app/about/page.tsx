@@ -14,13 +14,13 @@ export default function AboutPage() {
           Chad Hart is the founder and principal of Bird Rock Holdings, a Texas-based real estate and investment firm. With a background spanning industrial development, large-scale residential construction, commercial acquisitions, and business investment, Chad brings a hands-on, operator-first approach to every deal.
         </p>
         <p>
-          Chad's career began in construction — managing large-scale residential and commercial builds across Southern California. Over time, he transitioned into development and investment, building a portfolio that spans industrial flex assets in Texas, multifamily projects, and operating businesses in healthcare and construction services.
+          Chad's career began in construction, managing large-scale residential and commercial builds across Southern California. Over time, he transitioned into development and investment, building a portfolio that spans industrial flex assets in Texas, multifamily projects, and operating businesses in healthcare and construction services.
         </p>
         <p>
-          Today, Chad is focused on the Texas industrial market — developing ground-up industrial flex product and acquiring value-add assets in the fastest-growing submarkets in the state.
+          Today, Chad is focused on the Texas industrial market, developing ground-up industrial flex product and acquiring value-add assets in the fastest-growing submarkets in the state.
         </p>
         <p>
-          Generic placeholder paragraph — Lumen will write the real bio here. This is just scaffolding to give the page structure and layout.
+          Generic placeholder paragraph, Lumen will write the real bio here. This is just scaffolding to give the page structure and layout.
         </p>
       </div>
 
