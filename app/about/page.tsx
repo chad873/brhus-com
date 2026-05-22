@@ -14,10 +14,10 @@ export default function AboutPage() {
           Chad Hart is the founder and principal of Bird Rock Holdings, a Texas-based real estate and investment firm. With a background spanning industrial development, large-scale residential construction, commercial acquisitions, and business investment, Chad brings a hands-on, operator-first approach to every deal.
         </p>
         <p>
-          Chad's career began in construction, managing large-scale residential and commercial builds across Southern California. Over time, he transitioned into development and investment, building a portfolio that spans industrial flex assets in Texas, multifamily projects, and operating businesses in healthcare and construction services.
+          Chad&apos;s career began in construction, managing large-scale residential and commercial builds across Southern California. Over time, he transitioned into development and investment, building a portfolio that spans industrial flex assets in Texas, multifamily projects, and operating businesses in healthcare and construction services.
         </p>
         <p>
-          Today, Chad is focused on the Texas industrial market, developing ground-up industrial flex product and acquiring value-add assets in the fastest-growing submarkets in the state.
+          Today, Chad is focused on the Texas industrial market — developing ground-up industrial flex product and acquiring value-add assets in the fastest-growing submarkets in the state, with active projects in The Woodlands, Houston, and Corpus Christi.
         </p>
         <p>
           Chad is based between Texas and Southern California, and remains actively involved in every Bird Rock Holdings project — from initial underwriting to construction oversight and tenant relationships. He holds a commercial pilot certificate and brings the same precision and discipline to business that he applies in the cockpit.
@@ -27,11 +27,11 @@ export default function AboutPage() {
       <div className="mt-16 grid md:grid-cols-3 gap-6 text-center">
         {[
           { stat: "$50M+", label: "Residential assets developed" },
-          { stat: "3", label: "Active industrial projects" },
+          { stat: "4", label: "Active industrial projects in Texas" },
           { stat: "TX · CA · AZ · CO", label: "Active markets" },
         ].map((s) => (
           <div key={s.label} className="border border-gray-200 p-8">
-            <p className="text-3xl font-bold text-gray-900 mb-2">{s.stat}</p>
+            <p className="text-3xl font-bold text-[#1b4073] mb-2">{s.stat}</p>
             <p className="text-sm text-gray-500">{s.label}</p>
           </div>
         ))}
