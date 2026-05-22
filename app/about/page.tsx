@@ -20,7 +20,7 @@ export default function AboutPage() {
           Today, Chad is focused on the Texas industrial market, developing ground-up industrial flex product and acquiring value-add assets in the fastest-growing submarkets in the state.
         </p>
         <p>
-          Generic placeholder paragraph, Lumen will write the real bio here. This is just scaffolding to give the page structure and layout.
+          Chad is based between Texas and Southern California, and remains actively involved in every Bird Rock Holdings project — from initial underwriting to construction oversight and tenant relationships. He holds a commercial pilot certificate and brings the same precision and discipline to business that he applies in the cockpit.
         </p>
       </div>
 

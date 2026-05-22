@@ -7,7 +7,6 @@ const links = [
   { href: "/industrial", label: "Industrial" },
   { href: "/commercial", label: "Commercial" },
   { href: "/residential", label: "Residential" },
-  { href: "/investments", label: "Investments" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];

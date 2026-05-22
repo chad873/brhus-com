@@ -18,7 +18,7 @@ const sectors = [
     desc: "Luxury residential developments and large-scale multifamily projects across premium markets.",
   },
   {
-    title: "Business Investments",
+    title: "Private Investments",
     href: "/investments",
     desc: "Investments in healthcare, construction, and other essential operating companies with durable cash flows.",
   },
@@ -64,7 +64,7 @@ export default function Home() {
                 Redefining Investment in Real Assets.
               </h1>
               <p className="text-gray-200 text-lg max-w-xl mb-8">
-                Bird Rock Holdings acquires, develops, and operates industrial, commercial, and residential assets, and invests in businesses with lasting fundamentals. We are active across Texas, California, Arizona, and Colorado.
+                Bird Rock Holdings acquires, develops, and operates industrial, commercial, and residential real estate across Texas, California, Arizona, and Colorado.
               </p>
               <Link
                 href="/about"

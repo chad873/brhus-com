@@ -9,41 +9,47 @@ const investments = [
     category: "Construction",
     desc: "Strategic investments in construction services businesses, including structural steel, crane & rigging, and specialty contracting operations.",
   },
-  {
-    name: "Business Investment, Placeholder",
-    category: "Other",
-    desc: "Generic placeholder for additional business investments. Lumen will write the actual copy here.",
-  },
 ];
 
 export default function InvestmentsPage() {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-20">
-      <div className="mb-16">
+    <div className="bg-white">
+
+      {/* ── Header ───────────────────────────────────────── */}
+      <section className="max-w-6xl mx-auto px-6 py-20">
         <p className="text-sm uppercase tracking-widest text-gray-400 mb-3">Sector</p>
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Business Investments</h1>
-        <p className="text-gray-500 max-w-2xl text-lg leading-relaxed">
-          Beyond real estate, Bird Rock Holdings invests in operating businesses with strong fundamentals, recurring cash flows, and long-term growth potential. Our focus areas include healthcare, construction, and other essential services.
-        </p>
-      </div>
-
-      <div className="grid md:grid-cols-3 gap-6">
-        {investments.map((inv) => (
-          <div key={inv.name} className="border border-gray-200 p-6">
-            <span className="inline-block text-xs bg-gray-100 text-gray-600 px-3 py-1 mb-4">{inv.category}</span>
-            <h3 className="font-semibold text-gray-900 text-lg mb-3">{inv.name}</h3>
-            <p className="text-sm text-gray-600 leading-relaxed">{inv.desc}</p>
-          </div>
-        ))}
-      </div>
-
-      {/* Philosophy strip */}
-      <section className="mt-20 bg-gray-50 p-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Investment Philosophy</h2>
-        <p className="text-gray-600 max-w-2xl leading-relaxed">
-          We invest in businesses we understand, with operators we trust, in markets we believe in. Generic placeholder copy, Lumen will replace this with the real story.
+        <h1 className="font-serif text-4xl font-bold text-[#1b4073] mb-6">Private Investments</h1>
+        <p className="text-gray-600 max-w-2xl text-lg leading-relaxed">
+          Beyond real estate, Bird Rock Holdings invests in operating businesses with strong fundamentals, recurring cash flows, and long-term growth potential. Our focus areas include healthcare services, construction services, and other essential industries.
         </p>
       </section>
+
+      {/* ── Investment Cards ─────────────────────────────── */}
+      <section className="bg-[#f7f6f3] py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6">
+            {investments.map((inv) => (
+              <div key={inv.name} className="border border-gray-200 bg-white p-8">
+                <span className="inline-block text-xs bg-[#1b4073] text-white px-3 py-1 mb-4 uppercase tracking-wide">{inv.category}</span>
+                <h3 className="font-serif font-bold text-[#1b4073] text-xl mb-3">{inv.name}</h3>
+                <p className="text-gray-600 leading-relaxed">{inv.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Philosophy ───────────────────────────────────── */}
+      <section className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-gray-50 p-10">
+            <p className="text-gray-600 max-w-2xl leading-relaxed text-lg">
+              We invest in businesses we understand — with operators we trust, in industries we know firsthand. Bird Rock Holdings&apos; business investment approach stems from decades of hands-on experience in construction, healthcare, and real estate. We look for recurring cash flows, defensible market positions, and management teams with skin in the game.
+            </p>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
